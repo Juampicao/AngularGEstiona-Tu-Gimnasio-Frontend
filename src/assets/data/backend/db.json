@@ -1,0 +1,22 @@
+{
+  "suscriptores": [
+    {
+      "id": 3,
+      "creador": 222,
+      "nombre": "Micaela",
+      "apellido": "Apellido"
+    },
+    {
+      "id": 2,
+      "creador": 222,
+      "nombre": "Juan",
+      "apellido": "Parada"
+    },
+    {
+      "id": 1,
+      "creador": 222,
+      "nombre": "Gonza",
+      "apellido": "Cao"
+    }
+  ]
+}

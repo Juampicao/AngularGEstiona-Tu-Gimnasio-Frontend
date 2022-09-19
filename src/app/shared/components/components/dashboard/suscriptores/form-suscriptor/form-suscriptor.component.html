@@ -1,0 +1,78 @@
+<div class="card mx-5">
+
+    <form action="" [formGroup]="form" class="form-group bg-red-900 d-grid gap-2 px-5 py-2">
+        <h4 class="card-title mt-1 text-center">Crear Suscritor</h4>
+
+        <div class="inputDiv">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" formControlName="nombre" autocomplete="off">
+        </div>
+
+        <div class="inputDiv">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" formControlName="apellido" autocomplete="off">
+        </div>
+
+
+        <div class="inputDiv">
+            <label for="domiclio" class="form-label">Domicilio</label>
+            <input type="text" class="form-control" id="domiclio" formControlName="domicilio" autocomplete="off">
+        </div>
+
+        <div class="inputDiv">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" formControlName="email">
+        </div>
+
+        <div class="inputDiv">
+            <label>Genero</label>
+            <div>
+                <mat-radio-group>
+                    <mat-radio-button class="example-margin" value="masculino" formControlName="genero">Masculino
+                    </mat-radio-button>
+                    <mat-radio-button class="example-margin" value="femenino" formControlName="genero">Femenino
+                    </mat-radio-button>
+                </mat-radio-group>
+            </div>
+        </div>
+
+        <div class="inputDiv">
+            <label for="celular">Celular</label>
+            <input type="number" class="form-control" id="celular" formControlName="celular" autocomplete="off">
+        </div>
+
+        <div class="inputDiv">
+            <label for="dni">Dni</label>
+            <input type="number" class="form-control" id="dni" formControlName="dni" autocomplete="off">
+        </div>
+
+        <div class="inputDiv">
+            <label for="fechaNacimiento">Fecha Nacimiento</label>
+            <input type="date" class="form-control" id="fechaNacimiento" formControlName="fechaNacimiento"
+                autocomplete="off">
+        </div>
+
+        <div class="inputDiv">
+            <label for="notas">Notas</label>
+            <input type="text" class="form-control" id="notas" placeholder="Escriba alguna nota.."
+                formControlName="notas" autocomplete="off">
+        </div>
+        <!-- <mat-form-field appearance="fill">
+                <mat-label>Choose a date</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker startView="year" [startAt]="startDate"></mat-datepicker>
+            </mat-form-field> -->
+
+
+        <button mat-raised-button color="primary" class="button my-2" (click)="crearSuscriptor()">Crear
+            Suscriptor</button>
+    </form>
+
+
+</div>
+
+<section class="example-section">
+
+</section>

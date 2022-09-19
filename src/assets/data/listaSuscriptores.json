@@ -1,0 +1,14 @@
+[
+  { "id": 2, "nombre": "Mica", "estado": "activo" },
+  { "id": 3, "nombre": "Alfred", "estado": "deudor" },
+  { "id": 4, "nombre": "Jony", "estado": "activo" },
+  { "id": 2, "nombre": "Mica", "estado": "activo" },
+  { "id": 3, "nombre": "Alfred", "estado": "deudor" },
+  { "id": 4, "nombre": "Jony", "estado": "activo" },
+  { "id": 2, "nombre": "Mica", "estado": "activo" },
+  { "id": 3, "nombre": "Alfred", "estado": "deudor" },
+  { "id": 4, "nombre": "Jony", "estado": "activo" },
+  { "id": 2, "nombre": "Mica", "estado": "activo" },
+  { "id": 3, "nombre": "Alfred", "estado": "deudor" },
+  { "id": 4, "nombre": "Jony", "estado": "activo" }
+]

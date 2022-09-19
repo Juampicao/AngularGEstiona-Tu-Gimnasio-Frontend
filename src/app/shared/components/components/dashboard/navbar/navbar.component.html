@@ -1,0 +1,17 @@
+<mat-toolbar>
+    <span>Gestiona tu gimnasio</span>
+    <span class="example-spacer"></span>
+
+    <nav class="navbar navbar-expand-lg bg-light" mat-button *ngFor="let item of menu">
+        <div class="
+         " id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a [routerLink]="item.redirect" class="nav-link"> {{item.nombre}}</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <span class="example-spacer"></span>
+
+</mat-toolbar>

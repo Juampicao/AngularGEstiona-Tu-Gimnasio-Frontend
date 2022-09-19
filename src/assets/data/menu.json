@@ -1,0 +1,14 @@
+[
+  {
+    "nombre": "Suscriptores",
+    "redirect": "/suscriptores"
+  },
+  {
+    "nombre": "Pagos",
+    "redirect": "/pagos"
+  },
+  {
+    "nombre": "Reportes",
+    "redirect": "/reportes"
+  }
+]
